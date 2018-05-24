@@ -3,7 +3,7 @@
 export type ConfigFile = {
   filepath: string,
   dirname: string,
-  options: {},
+  options: Object,
 };
 
 export type IgnoreFile = {
